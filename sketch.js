@@ -19,19 +19,7 @@ function draw() {
 
 
 
-  if(movingRect.x - fixedRect.x < movingRect.width/2 + fixedRect.width/2 &&
-    fixedRect.x - movingRect.x < movingRect.width/2 + fixedRect.width/2
-    ){
-
-    fixedRect.shapeColor="green"
-    movingRect.shapeColor="green"
-
-    }
-    else{
-
-      fixedRect.shapeColor="red"
-      movingRect.shapeColor="red"
-    }
+  
   
   drawSprites();
 }
