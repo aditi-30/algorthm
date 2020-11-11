@@ -7,8 +7,8 @@ function setup() {
   movingRect = createSprite(400,200,100,50);
   fixedRect.debug= true;
   movingRect.debug=true;
-  fixedRect.shapeColor="red"
-  movingRect.shapeColor="red"
+  fixedRect.shapeColor="green"
+  movingRect.shapeColor="green"
 }
 
 function draw() {
